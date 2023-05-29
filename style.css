@@ -6,3 +6,21 @@ body {
     width: 100px;
     height: auto;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 16px;
+}
