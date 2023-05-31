@@ -1,10 +1,16 @@
-body {
-    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+    border: 2px solid;
+    border-color: red;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+body {   
+    margin: 0;
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 60px;
 }
 
 ul {
@@ -13,14 +19,61 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 100px;
 }
 
 .nav-bar {
     display: flex;
     gap: 16px;
 }
+
+.container-description {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+}
+
+.description {
+    padding: 0;
+    margin: 0;
+}
+
+.description-image {
+    width: 400px;
+    height: auto;
+}
+
+.books img {
+    width: 150px;
+    height: auto;
+}
+
+.container-module-1 {
+    background-color: #1f2937;
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* --------------FONTS--------------- */
+
