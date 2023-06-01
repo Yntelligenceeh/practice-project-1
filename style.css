@@ -6,6 +6,12 @@
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
 ul {
     list-style: none;
 }
@@ -31,7 +37,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding: 0 10%;
+    padding: 0 100px;
 }
 
 .nav-bar {
@@ -41,9 +47,9 @@ h1 {
 }
 
 .container-description {
-    padding: 60px 10%;
+    padding: 60px 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: start;
     gap: 60px;
     flex-wrap: wrap;
@@ -86,7 +92,7 @@ button {
 }
 
 .container-module-2 {
-    padding: 60px 10%;
+    padding: 60px 100px;
 }
 
 .books {
@@ -118,7 +124,7 @@ li p {
 }
 
 .container-module-3 {
-    padding: 60px 10%;
+    padding: 60px 100px;
     background-color: #e5e7eb;
     min-width: 80%;
 }
@@ -140,7 +146,7 @@ li p {
 
 .container-module-4 {
     display: flex;
-    margin: 80px 10%;
+    margin: 80px 100px;
     padding: 30px 60px;
     justify-content: space-between;
     align-items: center;
@@ -167,7 +173,7 @@ li p {
 }
 
 .footer {
-    padding: 30px 10%;
+    padding: 30px 100px;
     background-color: #1f2937;
     text-align: center;
     color: #e5e7eb;
