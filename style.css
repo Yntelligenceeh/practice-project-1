@@ -4,10 +4,10 @@
     /*border: 2px solid;
     border-color: red;*/
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    max-width: 1200px;
     width: 100%;
     margin: auto;
 }
@@ -75,13 +75,8 @@ h1 {
     height: auto;
 }
 
-.container-module-1 {
-    background-color: #1f2937;
-    color: white;
-}
-
 button {
-    background-color: #3882f6;
+    background-color: hsl(217, 91%, 59%);
     border: 0;
     min-width: 80px;
     max-width: 80px;
@@ -89,6 +84,10 @@ button {
     border-radius: 8px;
     color: #e5e7eb;
     font-weight: bold;
+}
+ 
+button:hover {
+    background-color: hsl(217, 100%, 56%);
 }
 
 .container-module-2 {
@@ -125,8 +124,6 @@ li p {
 
 .container-module-3 {
     padding: 60px 100px;
-    background-color: #e5e7eb;
-    min-width: 80%;
 }
 
 .quote-text {
@@ -174,11 +171,27 @@ li p {
 
 .footer {
     padding: 30px 100px;
-    background-color: #1f2937;
-    text-align: center;
-    color: #e5e7eb;
+    text-align: center;    
     font-size: small;
 }
 
+.module-1, .footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+
+.module-3 {
+    background-color: #e5e7eb;
+}
+
+.module-4 {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.header, .container-description, .container-module-2, .container-module-3 {
+    max-width: 1920px;
+    margin: auto;
+}
 /* --------------FONTS--------------- */
 

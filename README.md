@@ -1,3 +1,3 @@
-# practice-project-1
+# the-waystone-inn
 
-Creating a clone of an Odin practice project
+Fan page of The Kingkiller Chronicle book trilogy
